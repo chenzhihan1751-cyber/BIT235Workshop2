@@ -12,10 +12,10 @@ public class Exercise1_4 {
         double amount = principal * Math.pow(1 + rate, years);
         double interest = amount - principal;
 
-        System.out.printf("Principal (P)        : $%,.2f%n", principal);
-        System.out.printf("Interest rate (r)    : %.0f%% per year%n", rate * 100);
-        System.out.printf("Time period (n)      : %d years%n", years);
-        System.out.printf("Amount (A)           : $%,.2f%n", amount);
-        System.out.printf("Interest earned      : $%,.2f%n", interest);
+        System.out.printf("Principal (P)     : $%,.2f%n", principal);
+        System.out.printf("Interest rate (r) : %.0f%% per year%n", rate * 100);
+        System.out.printf("Time period (n)   : %d years%n", years);
+        System.out.printf("Amount (A)        : $%,.2f%n", amount);
+        System.out.printf("Interest earned   : $%,.2f%n", interest);
     }
 }

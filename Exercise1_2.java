@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * BIT235 Workshop 2 - Exercise 1.2
  * Convert degrees Celsius to degrees Fahrenheit.
- * Formula: F = C * 9 / 5 + 32   (9.0 / 5 is used to keep the division a double)
+ * Formula: F = C * 9 / 5 + 32  (9.0 / 5 keeps the division a double)
  */
 public class Exercise1_2 {
     public static void main(String[] args) {
@@ -14,7 +14,8 @@ public class Exercise1_2 {
 
         double fahrenheit = celsius * 9.0 / 5 + 32;
 
-        System.out.println(celsius + " degrees Celsius = " + fahrenheit + " degrees Fahrenheit");
+        System.out.println(celsius + " degrees Celsius = " + fahrenheit
+                           + " degrees Fahrenheit");
 
         input.close();
     }

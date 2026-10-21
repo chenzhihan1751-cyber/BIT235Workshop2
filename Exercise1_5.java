@@ -1,6 +1,7 @@
 /**
  * BIT235 Workshop 2 - Exercise 1.5
- * Volume of a sphere = (4/3) * pi * r^3  with pi = 3.14 and r = diameter / 2
+ * Volume of a sphere = (4/3) * pi * r^3
+ * pi = 3.14 and r = diameter / 2
  */
 public class Exercise1_5 {
     public static void main(String[] args) {
@@ -15,8 +16,10 @@ public class Exercise1_5 {
         double sunVolume = 4.0 / 3 * PI * Math.pow(sunRadius, 3);
         double ratio = sunVolume / earthVolume;
 
-        System.out.printf("a.) Volume of the Earth : %,.2f cubic miles%n", earthVolume);
-        System.out.printf("b.) Volume of the Sun   : %,.2f cubic miles%n", sunVolume);
+        System.out.printf("a.) Volume of the Earth : %,.2f cubic miles%n",
+                          earthVolume);
+        System.out.printf("b.) Volume of the Sun   : %,.2f cubic miles%n",
+                          sunVolume);
         System.out.printf("c.) Sun / Earth ratio   : %,.2f%n", ratio);
     }
 }

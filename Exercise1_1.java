@@ -18,7 +18,8 @@ public class Exercise1_1 {
 
         System.out.println("First number  = " + firstNumber);
         System.out.println("Second number = " + secondNumber);
-        System.out.println("Difference    = " + firstNumber + " - " + secondNumber + " = " + difference);
+        System.out.println("Difference    = " + firstNumber + " - "
+                           + secondNumber + " = " + difference);
 
         input.close();
     }
